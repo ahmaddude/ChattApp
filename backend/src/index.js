@@ -7,6 +7,7 @@ import messagesRoutes from "./routes/messagesRoutes.js";
 import cors from "cors";
 import {app,server} from "./lib/socket.js"
 import path from "path";
+import fs from 'fs';
 
 
 
