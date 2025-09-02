@@ -5,3 +5,4 @@ export const axiosInstance = axios.create({
     
     withCredentials: true,
 });
+console.log(import.meta.env.MODE)
